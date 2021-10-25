@@ -59,7 +59,7 @@ spec:
             - '--storage.tsdb.path=/prometheus/'
             - '--storage.tsdb.retention=24h'
             - '--config.file=/etc/prometheus/prometheus.yml'
-      serviceAccount: bd-monitoring-sa
+      serviceAccount: bd-prometheus-sa
       volumes:
         - name: config-volume
           configMap:

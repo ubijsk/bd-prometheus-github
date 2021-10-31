@@ -1,10 +1,10 @@
 haproxy:
   ## reveal of router-stats-default secrets:
-  username: dXNlcjZrZ2R4
-  passwd: cGFzc2RqcXZ2
+  username: cccc
+  passwd: ccccccc
   ## target are the infra-nodes where router-default pods in namespace openshift-ingress are running:
   jsk: jsk.c01u.paas.bdunet.dk:1936
-  jsk: hc110cp00025.c01u.paas.bdunet.dk:1936
+  jsk: jsk:1936
   target3: jsk.c01u.paas.bdunet.dk:1936
 
 
